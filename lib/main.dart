@@ -182,6 +182,7 @@ class LandingPage extends StatelessWidget {
                     );
                   },
             ),
+            Text('New update'),
           ],
         ),
       ),
