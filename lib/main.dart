@@ -165,7 +165,7 @@ class LandingPage extends StatelessWidget {
                         String modeText;
                         switch (mode) {
                           case ThemeMode.system:
-                            modeText = 'System Default Mode';
+                            modeText = 'Default Mode';
                             break;
                           case ThemeMode.light:
                             modeText = 'Light Mode';
