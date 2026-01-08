@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
     final ThemeModeData themeModeData = Provider.of<ThemeModeData>(context);
 
     return MaterialApp(
-      title: 'My Custom App',
+      title: 'My App',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
         useMaterial3: true,
@@ -165,7 +165,7 @@ class LandingPage extends StatelessWidget {
                         String modeText;
                         switch (mode) {
                           case ThemeMode.system:
-                            modeText = 'System Default Mode';
+                            modeText = 'Default Mode';
                             break;
                           case ThemeMode.light:
                             modeText = 'Light Mode';
